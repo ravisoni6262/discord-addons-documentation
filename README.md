@@ -106,3 +106,19 @@ Also, you will be notified of the arrival of the Bot :
 
 ![new-app16](https://user-images.githubusercontent.com/31171/235370391-2cc92ba8-980c-408c-97eb-d6fb29f3f84f.png)
 
+##Step6: Give Bot High Priority 
+For the Bot to handle roles, it must have high priority. 
+Go to Server Settings
+
+![new-app17](https://user-images.githubusercontent.com/31171/235370568-812a7f15-38f1-43f1-956c-00c391b04d94.png)
+
+Drag & Drop Bot on top of all Roles  and save changes: 
+
+
+![new-app18](https://user-images.githubusercontent.com/31171/235370577-43bf8b43-912a-424d-b0f1-949f45568ea1.png)
+
+To verify that the add-on works as expected, go to: Role Mappings. 
+
+you should see the discord roles: 
+
+![new-app20](https://user-images.githubusercontent.com/31171/235370615-ce75e142-9d51-4c22-8001-1c7843575eb1.png)
