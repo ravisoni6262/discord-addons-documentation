@@ -20,7 +20,8 @@ Click on New Application :
 ![new-app2](https://user-images.githubusercontent.com/31171/235369181-de5e3d93-c093-475a-b8e5-3acd1ea0a79d.png)
 
 
-Give a relevant name to your application and click on Create .
+Give a relevant name to your application and click on Create .![new-app7](https://user-images.githubusercontent.com/31171/235369751-c2901bbf-d34a-4e75-9257-9ab3231edd70.png)
+
 
 ## Step2: Create the Bot 
 
@@ -33,4 +34,75 @@ Click on the Bot menu:
 **Copy the Bot Token and save it, we will need it later.**
 
 ![new-app4](https://user-images.githubusercontent.com/31171/235369317-dff27566-0f6e-4995-bf95-9bea1e4a7fef.png)
+
+## Step3: Client ID and Client Secret 
+
+![new-app5](https://user-images.githubusercontent.com/31171/235369616-c4a85bf4-84b5-478e-9c47-4ca2bfd32523.png)
+
+Copy the Client ID and the Client Secret and save them as you did for the Bot Token. 
+
+## Step4: Server ID 
+
+To have the server ID, First You will activate the developer mode. 
+
+Click on the “User Settings” gear in the bottom left of the screen:  
+
+
+![new-app6](https://user-images.githubusercontent.com/31171/235369733-d693c3db-f4f1-4a1e-a087-941928f215d3.png)
+
+![new-app7](https://user-images.githubusercontent.com/31171/235369788-2c0be4d7-21c6-4545-9406-3a10aa4313f2.png)
+
+![new-app8](https://user-images.githubusercontent.com/31171/235369798-c515b8b0-2144-40d9-8c3f-39431d03017b.png)
+
+ 
+
+Now click on the server icon in the left-hand side of discord.com screen and copy the server ID : 
+
+![new-app9](https://user-images.githubusercontent.com/31171/235369847-9bd724c4-615e-4394-8d5f-a29dc30111db.png)
+
+## Step5: Connect the BOT 
+
+All Discord add-ons have the same user interface. 
+
+After installing and activating an Add-On, you will have a submenu: Discord Settings. 
+
+in this example we will take LearnDash LMS as an example : 
+
+![new-app10](https://user-images.githubusercontent.com/31171/235369891-b7a0cfac-4b99-4ea3-b3c4-9c43755a5f30.png)
+
+Now you fill in the form with the data saved before: Client ID, Secret ID, Bot Token, Server ID.
+
+Also, you need to copy/paste the URLs: :
+
+- Redirect URL. 
+- Admin Redirect URL Connect to bot 
+
+
+![new-app11](https://user-images.githubusercontent.com/31171/235370053-912019a9-94a7-40cd-b5dd-d5196bf09570.png)
+
+Click ‘Save Settings’. 
+After clicking on 'Save Settings', and if you have followed the steps correctly, you will have a new button that appears that you are invited to connect the Bot :
+
+
+![new-app13](https://user-images.githubusercontent.com/31171/235370270-424f73af-57cd-43c9-bdb5-d5e62a1b441b.png)
+
+You also noticed the appearance of a new sentence:  
+**Make sure the Bot ExpressTechSoftWares App BOThave the high priority than the roles it has to manage. Open DiscordServer.**
+Of course, the sentence contains the name of your Bot you named. 
+
+Now click on the red button 'Connect your Bot'. you will be redirected to Discord authentication : 
+
+![new-app14](https://user-images.githubusercontent.com/31171/235370345-f02225d3-7e21-4b1f-84cf-c912de455836.png)
+
+Click Authorize. 
+
+You will be redirected to the Admin page. 
+
+Congratulations ! you have successfully connected the bot: 
+
+![new-app15](https://user-images.githubusercontent.com/31171/235370379-d7ae9e98-41a2-4bb2-83ec-482ad79c48ce.png)
+
+Also, you will be notified of the arrival of the Bot : 
+
+![new-app16](https://user-images.githubusercontent.com/31171/235370391-2cc92ba8-980c-408c-97eb-d6fb29f3f84f.png)
 
