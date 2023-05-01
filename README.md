@@ -5,7 +5,7 @@ It is  intended for website  owners  who  wish to offer  their  users the abilit
 The ExpressTechSoftWares  Add-ons  make  it possible to link Discord roles  and:
 
  - Memberships: if you offer a subscription system ( PMPRO, MemberPress, ...)
- - Courses: if you have installed an LMS ( LearnDash, LearnPres, ...)
+ - Courses: if you have installed an LMS ( LearnDash, LearnPress, ...)
 
 The first step  requires  creating a Discord Application and collecting the data necessary to make the Add-ons  work  correctly.
 
@@ -20,7 +20,7 @@ Click on New Application :
 ![new-app2](https://user-images.githubusercontent.com/31171/235369181-de5e3d93-c093-475a-b8e5-3acd1ea0a79d.png)
 
 
-Give a relevant name to your application and click on Create .![new-app7](https://user-images.githubusercontent.com/31171/235369751-c2901bbf-d34a-4e75-9257-9ab3231edd70.png)
+Give a relevant name to your application and click on Create .
 
 
 ## Step2: Create the Bot 
@@ -37,6 +37,8 @@ Click on the Bot menu:
 
 ## Step3: Client ID and Client Secret 
 
+Go to : OAuth2 menu :
+
 ![new-app5](https://user-images.githubusercontent.com/31171/235369616-c4a85bf4-84b5-478e-9c47-4ca2bfd32523.png)
 
 Copy the Client ID and the Client Secret and save them as you did for the Bot Token. 
@@ -50,7 +52,11 @@ Click on the “User Settings” gear in the bottom left of the screen:
 
 ![new-app6](https://user-images.githubusercontent.com/31171/235369733-d693c3db-f4f1-4a1e-a087-941928f215d3.png)
 
+Advanced :
+
 ![new-app7](https://user-images.githubusercontent.com/31171/235369788-2c0be4d7-21c6-4545-9406-3a10aa4313f2.png)
+
+Enable Developer Mode
 
 ![new-app8](https://user-images.githubusercontent.com/31171/235369798-c515b8b0-2144-40d9-8c3f-39431d03017b.png)
 
@@ -59,6 +65,8 @@ Click on the “User Settings” gear in the bottom left of the screen:
 Now click on the server icon in the left-hand side of discord.com screen and copy the server ID : 
 
 ![new-app9](https://user-images.githubusercontent.com/31171/235369847-9bd724c4-615e-4394-8d5f-a29dc30111db.png)
+
+Save the Server ID as you did for the Bot Token , Client ID and Client Secret.
 
 ## Step5: Connect the BOT 
 
@@ -77,17 +85,23 @@ Also, you need to copy/paste the URLs: :
 - Redirect URL. 
 - Admin Redirect URL Connect to bot 
 
+Go to : OAuth2 
 
 ![new-app11](https://user-images.githubusercontent.com/31171/235370053-912019a9-94a7-40cd-b5dd-d5196bf09570.png)
 
-Click ‘Save Settings’. 
+Add the URls and click 'Save Changes'.
+
+
+Return to the AddOn dashboard and Click ‘Save Settings’.
+
 After clicking on 'Save Settings', and if you have followed the steps correctly, you will have a new button that appears that you are invited to connect the Bot :
 
 
 ![new-app13](https://user-images.githubusercontent.com/31171/235370270-424f73af-57cd-43c9-bdb5-d5e62a1b441b.png)
 
 You also noticed the appearance of a new sentence:  
-**Make sure the Bot ExpressTechSoftWares App BOThave the high priority than the roles it has to manage. Open DiscordServer.**
+**Make sure the Bot ExpressTechSoftWares App BOT have the high priority than the roles it has to manage. Open DiscordServer.**
+
 Of course, the sentence contains the name of your Bot you named. 
 
 Now click on the red button 'Connect your Bot'. you will be redirected to Discord authentication : 
@@ -106,8 +120,9 @@ Also, you will be notified of the arrival of the Bot :
 
 ![new-app16](https://user-images.githubusercontent.com/31171/235370391-2cc92ba8-980c-408c-97eb-d6fb29f3f84f.png)
 
-##Step6: Give Bot High Priority 
-For the Bot to handle roles, it must have high priority. 
+## Step6: Give Bot High Priority 
+For the Bot to handle roles, it must have high priority.
+
 Go to Server Settings
 
 ![new-app17](https://user-images.githubusercontent.com/31171/235370568-812a7f15-38f1-43f1-956c-00c391b04d94.png)
